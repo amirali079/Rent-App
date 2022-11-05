@@ -31,7 +31,7 @@ public class Car {
     private Boolean isRented;
 
     public CarModel carModel() {
-        return new CarModel(model,year,company,description,imageURL,value,cost,isRented);
+        return new CarModel(id,model,year,company,description,imageURL,value,cost,isRented);
     }
 
 }
